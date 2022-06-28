@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+button {
+  padding: 0.5em 2em;
+  cursor: pointer;
+}
+
+.canvas {
+  position: fixed;
+  z-index: -1;
+}
